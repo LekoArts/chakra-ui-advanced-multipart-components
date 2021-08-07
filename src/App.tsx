@@ -11,7 +11,7 @@ function App() {
         Toggle {colorMode === "light" ? "Dark" : "Light"}
       </Button>
       <Container>
-        <Heading as='h1'>Chakra UI: Advanced Multi-Part Components</Heading>
+        <Heading as='h1'>Chakra UI: Advanced Multipart Components</Heading>
         <Text sx={{ mt: 3, mb: 3 }}>
           This example page showcases a custom made "Container" component that supports light/dark mode, variants and
           color schemes. It's two parts (Outer and Inner) and thus supports fullbleed layouts, normal constrained ones
@@ -24,7 +24,7 @@ function App() {
             lekoarts.de
           </Link>
           . Read the source code on{" "}
-          <Link fontWeight='bold' href='https://www.github.com/LekoArts/chakra-ui-advanced-multi-part-components'>
+          <Link fontWeight='bold' href='https://www.github.com/LekoArts/chakra-ui-advanced-multipart-components'>
             GitHub
           </Link>
           .
