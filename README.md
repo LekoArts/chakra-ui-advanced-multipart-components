@@ -1,4 +1,4 @@
-# Chakra UI: Advanced Multi-Part Components
+# Chakra UI: Advanced Multipart Components
 
 This example showcases a custom made "Container" component that supports light/dark mode, variants, sizes and color schemes. It's two parts (Outer and Inner) and thus supports fullbleed layouts, normal constrained ones and different styles for both containers.
 
