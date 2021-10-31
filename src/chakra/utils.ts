@@ -1,5 +1,4 @@
-import { mode, transparentize, getColor } from "@chakra-ui/theme-tools"
-import { ChakraTheme, ThemeComponentProps } from "@chakra-ui/react"
+import { mode, transparentize, getColor, StyleFunctionProps } from "@chakra-ui/theme-tools"
 
 type AccessibleColor = {
   bg?: string
@@ -18,7 +17,7 @@ export const accessibleColorMap: { [key: string]: AccessibleColor } = {
   },
 }
 
-export function variantSolid(props: ThemeComponentProps<ChakraTheme>) {
+export function variantSolid(props: StyleFunctionProps) {
   const { colorScheme: c } = props
 
   if (!c) {
@@ -43,7 +42,7 @@ export function variantSolid(props: ThemeComponentProps<ChakraTheme>) {
   }
 }
 
-export function variantGhost(props: ThemeComponentProps<ChakraTheme>) {
+export function variantGhost(props: StyleFunctionProps) {
   const { colorScheme: c, theme } = props
 
   if (c === "gray") {
@@ -62,7 +61,7 @@ export function variantGhost(props: ThemeComponentProps<ChakraTheme>) {
   }
 }
 
-export function variantGhostOuter(props: ThemeComponentProps<ChakraTheme>) {
+export function variantGhostOuter(props: StyleFunctionProps) {
   const { colorScheme: c } = props
 
   if (c === "gray") {
@@ -80,7 +79,7 @@ export function variantGhostOuter(props: ThemeComponentProps<ChakraTheme>) {
   }
 }
 
-export function variantGradient(props: ThemeComponentProps<ChakraTheme>) {
+export function variantGradient(props: StyleFunctionProps) {
   const { colorScheme: c, colorMode, theme } = props
   const isDarkMode = colorMode === "dark"
 

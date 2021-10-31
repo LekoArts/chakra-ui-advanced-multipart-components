@@ -1,10 +1,4 @@
 import { ComponentStyleConfig } from "@chakra-ui/react"
-import { variantSolid, variantGhost } from "./utils"
-
-const variants = {
-  solid: variantSolid,
-  ghost: variantGhost,
-}
 
 const Container: ComponentStyleConfig = {
   baseStyle: {
@@ -14,7 +8,6 @@ const Container: ComponentStyleConfig = {
     px: [4, 6],
     py: [8, 10],
   },
-  variants,
   defaultProps: {
     colorScheme: "gray",
   },

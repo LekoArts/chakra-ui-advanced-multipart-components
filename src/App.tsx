@@ -17,7 +17,7 @@ function App() {
           color schemes. It's two parts (Outer and Inner) and thus supports fullbleed layouts, normal constrained ones
           and different styles for both containers.
         </Text>
-        <Text sx={{ mb: 3 }}>To learn more about this head to the long in-depth explanation: LINK</Text>
+        <Text sx={{ mb: 3 }}>To learn more about this head to the long in-depth explanation: <Link fontWeight='bold' href='https://www.lekoarts.de/react/how-to-build-an-advanced-multipart-component-with-chakra-ui'>How To Build an Advanced Multipart Component with Chakra UI</Link></Text>
         <Text>
           Created by{" "}
           <Link fontWeight='bold' href='https://www.lekoarts.de'>
